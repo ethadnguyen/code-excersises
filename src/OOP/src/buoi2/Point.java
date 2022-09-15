@@ -50,7 +50,7 @@ public class Point {
     }
 
     public double distance(Point P) {
-        return Math.sqrt((this.x - P.x) * (this.x * P.x) + (this.y - P.y) * (this.y - P.y));
+        return Math.sqrt((this.x - P.x) * (this.x - P.x) + (this.y - P.y) * (this.y - P.y));
     }
 
 }
